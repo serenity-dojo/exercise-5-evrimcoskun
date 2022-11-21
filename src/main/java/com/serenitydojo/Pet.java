@@ -5,7 +5,6 @@ public abstract class Pet {
     private int age;
     private String game;
 
-
     public Pet(String name, int age) {
         this.name = name;
         this.age = age;

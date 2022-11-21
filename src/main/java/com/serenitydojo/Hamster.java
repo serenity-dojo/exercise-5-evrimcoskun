@@ -5,6 +5,7 @@ public class Hamster extends Pet {
 
     public Hamster(String name, int age, String favoriteGame) {
         super(name, age);
+        this.favoriteGame = favoriteGame;
     }
 
     public String getFavoriteGame() {
